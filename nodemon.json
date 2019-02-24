@@ -1,0 +1,7 @@
+{
+    "env":{
+        "MONGO_USER":"admin",
+        "MONGO_PASSWORD":"J4ju988JL0DTTem1",
+        "MONGO_DB": "moviepedia"
+    }
+}
