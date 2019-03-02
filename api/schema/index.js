@@ -1,4 +1,6 @@
-module.exports = {'movieBuildSchema':`
+const { buildSchema } = require('graphql');
+
+module.exports = buildSchema(`
 type Movie {
     _id: ID!
     title: String!
@@ -40,4 +42,4 @@ schema {
     query: RootQuery
     mutation: RootMutation
 }
-`}; 
+`);
